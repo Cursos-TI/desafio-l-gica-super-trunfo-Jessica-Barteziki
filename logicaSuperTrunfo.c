@@ -3,6 +3,7 @@
 
 // Desafio Super Trunfo - Países
 // Nível Novato - Cadastro e Comparação de Cartas
+//Jessica Dill Barteziki
 
 // Definição da estrutura para representar uma carta do Super Trunfo
 typedef struct {
@@ -82,7 +83,7 @@ int main() {
     carta1.pibPerCapita = calcularPibPerCapita(carta1.pib * 1e9, carta1.populacao);
     carta2.pibPerCapita = calcularPibPerCapita(carta2.pib * 1e9, carta2.populacao);
 
-    // Escolha do atributo para comparação (modifique aqui para testar outros)
+    // Escolha do atributo para comparação 
     char atributoComparacao[] = "População"; // Opções: "Área", "PIB", "Densidade Populacional", "PIB per capita"
 
     printf("Comparação de cartas (Atributo: %s):\n\n", atributoComparacao);
